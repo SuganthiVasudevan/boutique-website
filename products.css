@@ -1,0 +1,30 @@
+*{
+    background-color: pink;
+}
+
+.order{
+  background-color: pink;
+}
+.one{
+  background-color: white;
+}
+
+
+* {
+  box-sizing:unset;
+}
+
+
+.table {
+  /*padding: 50px;*/
+  background-color: green;
+  transition: transform .2s;
+  
+  margin: 0 auto;
+}
+
+.table:hover {
+  -ms-transform: scale(1); 
+  -webkit-transform: scale(1); 
+  transform: scale(1.1); 
+}

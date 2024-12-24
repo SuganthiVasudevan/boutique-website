@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>Online Payment-Page</title>
+    <link rel="stylesheet" href="OnlinePayment.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <form action=" insert1.php" method="post">
+
+            <div class="row">
+
+                <div class="col">
+                    <h3 class="title" >
+                        Billing Address
+                    </h3>
+
+                    <div class="inputBox">
+                        <label for="Full_Name">Full_Name </label>
+                        <input type="text" name="Full_Name" placeholder="Enter your full name"  required>
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="Email">Email </label>
+                        <input type="text" name="Email" placeholder="Enter email address"  required>
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="Address"> Address </label>
+                        <input type="text" name="Address" placeholder="Enter address"  required>
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="City">City</label>
+                        <input type="text" name="City" placeholder="Enter city" required>
+                    </div>
+
+                    <div class="flex">
+
+                        <div class="inputBox">
+                            <label for="State"> State </label>
+                            <input type="text" name="State" placeholder="Enter state" required>
+                        </div>
+
+                        <div class="inputBox">
+                            <label for="Zip_Code"> Zip_Code </label>
+                            <input type="number" name="Zip_Code" placeholder="123 456" required>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col">
+
+                    <h3 class="title" >Payment</h3> 
+
+                    <div class="inputBox">
+                        <label for="name">Card Accepted:</label>
+                        <img src="" alt="PayPal | Rupay | Visa | MasterCard 💳">
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="Name_On_Card"> Name_On_Card </label>
+                        <input type="text" name="Name_On_Card" placeholder= "Enter Name on your Card" required>
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="Credit_Card_Number">Credit_Card_Number</label> 
+                        <input type="text" name="Credit_Card_Number" placeholder= "1111-2222-3333-4444" maxlength="19" required>
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="">Exp_Month</label>
+                        <select name="Exp_Month" >
+                            <option value="">Choose month</option>
+                            <option value="January">January</option>
+                            <option value="February">February</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="September">September</option>
+                            <option value="October">October</option>
+                            <option value="November">November</option>
+                            <option value="December">December</option>
+                        </select>
+                    </div>
+
+
+                    <div class="flex">
+                        <div class="inputBox">
+                            <label for="">Exp_Year:</label>
+                            <select name="Exp_Year" >
+                                <option value="">Choose Year</option>
+                                <option value="2023">2025</option>
+                                <option value="2024">2026</option>
+                                <option value="2025">2027</option>
+                                <option value="2026">2028</option>
+                                <option value="2027">2029</option>
+                                <option value="2027">2030</option>
+                            </select>
+                        </div>
+
+                        <div class="inputBox">
+                            <label for="CVV">CVV</label>
+                            <input type="number" name="CVV"  placeholder="1234" required>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+           
+
+            <center class="last">
+
+                <button style="font-size: large " ><a href="Final.html">Proceed to Checkout</a></button>
+        
+            </center>
+        </form>
+
+    </div>
+    <script type="text/javascript" src="OnlinePayment.js"></script>
+</body>
+</html>
